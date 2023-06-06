@@ -22,7 +22,7 @@ ChartJS.register(
   Filler
 );
 
-const income: number[] = [0, 56, 20, 36, 80, 40, 30, -20, 25, 30, 12, 60];
+const income: number[] = [0, 56, 20, 36, 80, 40, 30, 5, 25, 30, 12, 60];
 const months: string[] = [
   "January",
   "February",

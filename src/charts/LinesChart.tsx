@@ -28,7 +28,7 @@ ChartJS.register(
 type Props = {};
 
 //Data
-const income: number[] = [0, 56, 20, 36, 80, 40, 30, -20, 25, 30, 12, 60];
+const income: number[] = [0, 56, 20, 36, 80, 40, 30, 5, 25, 30, 12, 60];
 const expenses: number[] = [20, 25, 60, 65, 45, 10, 0, 25, 35, 7, 20, 25];
 const months: string[] = [
   "January",
