@@ -81,7 +81,7 @@ const myoptions = {
 };
 
 const LinesChart = (props: Props) => {
-  return <Line data={mydata} options={myoptions} />;
+  return <Line id="line-chart" data={mydata} options={myoptions} />;
 };
 
 export default LinesChart;

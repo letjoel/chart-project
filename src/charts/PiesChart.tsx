@@ -36,7 +36,7 @@ const data = {
 type Props = {};
 
 const PiesChart = (props: Props) => {
-  return <Pie data={data} options={options} />;
+  return <Pie id="pie-chart" data={data} options={options} />;
 };
 
 export default PiesChart;

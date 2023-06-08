@@ -71,7 +71,7 @@ const myData = {
 type Props = {};
 
 const BarsChart = (props: Props) => {
-  return <Bar data={myData} options={myOptions} />;
+  return <Bar id="bar-chart" data={myData} options={myOptions} />;
 };
 
 export default BarsChart;
